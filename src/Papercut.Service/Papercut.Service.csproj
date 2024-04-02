@@ -3,7 +3,7 @@
     <ApplicationIcon>Papercut-Service-icon.ico</ApplicationIcon>
     <TargetFramework>net48</TargetFramework>
     <OutputType>Exe</OutputType>
-    <StartupObject />
+    <StartupObject>Papercut.Service.Program</StartupObject>
     <DependsOnNETStandard>false</DependsOnNETStandard>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <Platform>AnyCPU</Platform>
@@ -12,7 +12,8 @@
   <PropertyGroup>
      <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>    
+    <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
+    <PlatformTarget>AnyCPU</PlatformTarget>    
   </PropertyGroup>
   
   <ItemGroup>
